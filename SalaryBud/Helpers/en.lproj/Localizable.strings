@@ -1,0 +1,105 @@
+/* 
+  Localizable.strings
+  SalaryBud
+
+  Created by Eilon Krauthammer on 22/02/2020.
+  Copyright © 2020 Eilon Krauthammer. All rights reserved.
+*/
+
+
+"no_jobs" = "No jobs!";
+"job_addable" = "You can add new jobs using the button at the top.";
+"last_shift" = "Last shift";
+"new_job" = "Add a New Job";
+"shift" = "Shift";
+
+// Job Detail View
+
+"start_shift" = "Start a Shift";
+"or" = "OR";
+"add_manually" = "Add manually";
+"info" = "Info";
+"salary_hourly" = "Hourly Salary:";
+"number_shifts" = "Shifts";
+"view_shift_history" = "View Shift History";
+"shifts_info" = "Shifts info";
+"earnings_info" = "Earnings Info";
+"average_shift_salary" = "Average shift salary";
+"average_shift_duration" = "Average shift duration";
+"hrs" = "hr";
+"edit" = "Edit";
+"delete" = "Delete";
+"total_week" = "Total this week";
+"total_month" = "Total this month";
+"total_year" = "Total this year";
+"total_alltime" = "Total earned all-time";
+"average_shift_bonuses" = "Average tips / bonuses";
+"total_hours" = "Total hours worked";
+
+
+// New Job View
+
+"s_job_title" = "JOB TITLE";
+"s_hourly_payment" = "HOURLY PAYMENT";
+"p_enter_title" = "Enter a title";
+"save" = "Save";
+"t_new_job" = "New Job";
+"t_edit_job" = "Edit Job";
+"step_amount" = "Step amount";
+
+// New Shift View
+"s_date_time" = "DATE & TIME";
+"s_salary" = "SALARY";
+"multiplier_info" = "Multipliers may take effect in shifts during special times, e.g. shifts in weekends or holidays.";
+"worked_from" = "I've worked from";
+"until" = "Until";
+"multiplier" = "Multiplier";
+"bonuses_tips" = "Bonuses / Tips:";
+"confirm" = "Confirm";
+"t_new_shift" = "New Shift";
+
+// Shift List View
+
+"salary" = "Salary";
+"bonuses" = "Bonuses:";
+"duration" = "Duration:";
+"total" = "Total:";
+"t_shifts" = "Shifts";
+
+// Shift View
+"t_active_shift" = "Active Shift";
+"started_at" = "Started at:";
+"payment_info" = "Payment Information";
+"start" = "Start";
+"earned_sofar" = "Earned sofar this shift:";
+
+// Calculator View
+"salary_calc" = "Salary Calculator";
+"hourly_salary" = "HOURLY SALARY";
+"weekly_shifts" = "Weekly Shifts";
+"hours_per_shift" = "Hours Per Shift";
+"shift_info" = "SHIFT INFO";
+"result" = "RESULT";
+"weekly" = "Weekly";
+"monthly" = "Monthly";
+"yearly" = "Yearly";
+
+// Greetings
+"night" = "Good Night";
+"morning" = "Good Morning";
+"noon" = "Good Afternoon";
+"afternoon" = "Good Afternoon";
+"evening" = "Good Evening";
+"day" = "Good Day";
+
+// Other
+"today" = "Today";
+"yesterday" = "Yesterday";
+
+// Alerts
+"hey" = "Hey!";
+"error_cantadd" = "You can't work for 0 hours :(";
+
+
+
+

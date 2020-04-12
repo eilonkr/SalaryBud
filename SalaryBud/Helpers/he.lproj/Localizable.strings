@@ -1,0 +1,101 @@
+/* 
+  Localizable.strings
+  SalaryBud
+
+  Created by Eilon Krauthammer on 22/02/2020.
+  Copyright © 2020 Eilon Krauthammer. All rights reserved.
+*/
+
+"no_jobs" = "אין עבודות!";
+"job_addable" = "ניתן להוסיף עבודה חדשה ע״י לחיצה על כפתור ה- + למעלה.";
+"total_month" = "סה״כ החודש";
+"last_shift" = "משמרת אחרונה";
+"new_job" = "הוספת עבודה חדשה";
+"shift" = "משמרת";
+
+// Job Detail View
+
+"total_alltime" = "סה״כ בעבודה";
+"start_shift" = "התחלת משמרת";
+"or" = "או";
+"add_manually" = "הוסף/י ידנית";
+"info" = "מידע";
+"salary_hourly" = "משכורת שעתית";
+"number_shifts" = "משמרות";
+"view_shift_history" = "הצגת היסטורית משמרות";
+"shifts_info" = "מידע משמרות";
+"earnings_info" = "מידע הכנסות";
+"average_shift_salary" = "משכורת ממוצעת למשמרת";
+"average_shift_duration" = "משך משמרת ממוצע";
+"hrs" = "ש׳";
+"edit" = "עריכה";
+"delete" = "מחיקה";
+"total_week" = "סה״כ השבוע";
+"total_month" = "סה״כ החודש";
+"total_year" = "סה״כ השנה";
+"total_alltime" = "סה״כ בכל הזמנים";
+"average_shift_bonuses" = "ממוצע טיפים / בונוסים";
+"total_hours" = "סה״כ שעות שעבדתי";
+
+// New Job View
+
+"s_job_title" = "כותרת העבודה";
+"s_hourly_payment" = "משכורת שעתית";
+"p_enter_title" = "הזן/י כותרת";
+"save" = "שמירה";
+"t_new_job" = "עבודה חדשה";
+"t_edit_job" = "עריכת עבודה";
+"step_amount" = "גודל צעד";
+
+// New Shift View
+"s_date_time" = "תאריך ושעה";
+"s_salary" = "משכורת";
+"multiplier_info" = "מכפיל רלוונטי לעבודות בזמנים מיוחדים, למשל משמרות בסופ״ש או חגים.";
+"worked_from" = "עבדתי מ-";
+"until" = "עד";
+"multiplier" = "מכפיל";
+"bonuses_tips" = "בונוסים / טיפים:";
+"confirm" = "אישור";
+"t_new_shift" = "משמרת חדשה";
+
+// Shift List View
+
+"salary" = "משכורת";
+"bonuses" = "בונוסים:";
+"duration" = "משך:";
+"total" = "סה״כ";
+"t_shifts" = "משמרות";
+
+// Shift View
+"t_active_shift" = "משמרת פעילה";
+"started_at" = "תחילת המשמרת:";
+"payment_info" = "תשלום";
+"start" = "התחלה";
+"earned_sofar" = "הרווחת במשמרת עד כה:";
+
+// Calculator View
+"salary_calc" = "מחשבון שכר";
+"hourly_salary" = "שכר שעתי";
+"weekly_shifts" = "משמרות שבועיות";
+"hours_per_shift" = "מס׳ שעות למשמרת";
+"shift_info" = "מידע משמרות";
+"result" = "תוצאה";
+"weekly" = "שבועי";
+"monthly" = "חודשי";
+"yearly" = "שנתי";
+
+// Greetings
+"night" = "לילה טוב";
+"morning" = "בוקר טוב";
+"noon" = "צהריים טובים";
+"afternoon" = "אחר צהריים טובים";
+"evening" = "ערב טוב";
+"day" = "יום טוב";
+
+// Other
+"today" = "היום";
+"yesterday" = "אתמול";
+
+// Alerts
+"hey" = "היי!";
+"error_cantadd" = "אי אפשר לעבוד 0 שעות :(";
