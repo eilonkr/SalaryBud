@@ -33,22 +33,21 @@ struct JobDetailView: View {
                     Image(systemName: "play.circle.fill").flipsForRightToLeftLayoutDirection(true)
                 }
                 .font(.system(size: 72.0))
-                .foregroundColor(.red)
+                .foregroundColor(.pink)
                 .padding()
                 .sheet(isPresented: $isPresentingShiftView) {
                     ShiftView().environmentObject(self.job)
                 }
-    
                 
-                Text(localized("or"))
-                    .foregroundColor(Color.secondary)
-                    .font(.callout)
                 Button(action: {
                     self.isPresentingNewShiftModal.toggle()
                 }) {
+                    Image(systemName: "pencil")
                     Text(localized("add_manually"))
                         .bold()
+                    
                 }
+                .foregroundColor(Color(.systemIndigo))
                     
                 Divider()
                 

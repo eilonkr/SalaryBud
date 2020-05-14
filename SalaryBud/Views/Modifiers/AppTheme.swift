@@ -12,7 +12,7 @@ struct AppTheme: ViewModifier {
     private var gradientStartColor: UIColor {
         UIColor { traitCollection in
             if traitCollection.userInterfaceStyle == .light {
-                return UIColor(red: 0.952, green: 0.975, blue: 0.864, alpha: 1.00)
+                return UIColor(red: 0.724, green: 1.000, blue: 0.710, alpha: 0.35)
             }
             
             return UIColor(red: 0.069, green: 0.325, blue: 0.538, alpha: 0.8)

@@ -15,6 +15,7 @@ struct ContentView: View {
     @State private var isShowingDetail: Bool = false
     @State private var isPresentingShiftView: Bool = false
     @State private var isPresentingCalculator: Bool = false
+    @State private var isPresentingAboutView: Bool = false
     
     @State private var detailJob: Job?
     
@@ -75,6 +76,7 @@ struct ContentView: View {
                                 Text(localized("new_job"))
                                     .font(.subheadline)
                             }
+                            .foregroundColor(Color(.systemIndigo))
                             .padding(.top, 4)
                         }
                         .frame(maxWidth: .infinity)
@@ -98,16 +100,41 @@ struct ContentView: View {
                 }
             }
             .navigationBarTitle(greeting)
-            .navigationBarItems(trailing: Button(action: {
-                self.isPresentingCalculator = true
-            }) { Image("icncalc") }
-                .padding()
+            .navigationBarItems(trailing:
+                HStack(spacing: 16.0) {
+                    Button(action: {
+                        self.isPresentingAboutView = true
+                    }) {
+                        ZStack {
+                            Circle()
+                                .frame(width: 40, height: 40)
+                                .foregroundColor(Color(.secondarySystemBackground))
+                            Image(systemName: "info.circle.fill")
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .frame(width: 24, height: 24)
+                                .foregroundColor(.pink)
+                        }
+                    }
+                    Button(action: {
+                        self.isPresentingCalculator = true
+                    }) {
+                        ZStack {
+                            Circle()
+                                .frame(width: 40, height: 40)
+                                .foregroundColor(Color(.secondarySystemBackground))
+                            Image("icncalc")
+                                .foregroundColor(.pink)
+                        }
+                    }
+                }
             .sheet(isPresented: $isPresentingCalculator) {
                 CalculatorView()
             })
             .sheet(isPresented: $isPresentingShiftView) {
                 ShiftView().environmentObject(self.detailJob ?? Job())
             }
+            .sheet(isPresented: $isPresentingAboutView) { AboutView() }
             .onAppear(perform: fetchJobs)
             .modifier(AppTheme())
             .edgesIgnoringSafeArea(.bottom)

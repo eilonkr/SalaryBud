@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95139EAA2458699800DBCFBF /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95139EA92458699800DBCFBF /* AboutView.swift */; };
 		9517FAEE23FF32ED002D2CDD /* ShiftListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9517FAED23FF32ED002D2CDD /* ShiftListView.swift */; };
 		9538A7E02401470F00495691 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9538A7E22401470F00495691 /* Localizable.strings */; };
 		9538A7E52401D80800495691 /* ShiftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9538A7E42401D80800495691 /* ShiftView.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		95139EA92458699800DBCFBF /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		9517FAED23FF32ED002D2CDD /* ShiftListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftListView.swift; sourceTree = "<group>"; };
 		9538A7DD2401466B00495691 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		9538A7E12401470F00495691 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				9538A7E42401D80800495691 /* ShiftView.swift */,
 				9538A7E62401E9DA00495691 /* EditPaymentView.swift */,
 				95D2B42B2402CC68006A0791 /* CalculatorView.swift */,
+				95139EA92458699800DBCFBF /* AboutView.swift */,
 				95BBB2512404277B00ADFBF9 /* Modifiers */,
 			);
 			path = Views;
@@ -244,6 +247,7 @@
 			files = (
 				957F494523FF552000E9C094 /* NewShiftView.swift in Sources */,
 				95D2B42C2402CC68006A0791 /* CalculatorView.swift in Sources */,
+				95139EAA2458699800DBCFBF /* AboutView.swift in Sources */,
 				957E8FF923FEF86E00D0D640 /* NewJobView.swift in Sources */,
 				95898D6823FEEEBC00AE3774 /* AppDelegate.swift in Sources */,
 				9551F4A223FFEE0D007098B1 /* AppInfo.swift in Sources */,
